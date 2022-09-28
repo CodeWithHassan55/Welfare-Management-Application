@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainDiv {
+  width: 100%;
+  height: auto;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  margin: 50px 0;
+  margin-top: 120px;
+  width: 60%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid black;
+  font-family: "Poppins", sans-serif;
+}
+.image {
+  margin-bottom: 40px;
+  width: 400px;
+  height: 90px;
+}
+.radio {
+  margin: 25px 0;
+}
+.subRadio {
+  display: flex;
+  margin-top: 5px;
+}
+.subRadio2 {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.subRadio2 > label {
+  margin-left: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.subRadio2 > input {
+  cursor: pointer;
+}
+.rental {
+  margin-bottom: 25px;
+}
+.rental > input {
+  width: 49%;
+}
+.dependents {
+  margin-bottom: 25px;
+}
+.dependents > input {
+  margin-top: 10px;
+  width: 49%;
+}
+.subDependents {
+  margin-top: 10px;
+  display: flex;
+}
+.subDependents > input:first-child {
+  margin-right: 10px;
+}
+.purpose > h4 {
+  margin-bottom: 10px;
+}
+.subPurpose {
+  display: flex;
+  flex-wrap: wrap;
+}
+.subPurpose2 {
+  margin-bottom: 8px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+.subPurpose2 > input {
+  cursor: pointer;
+}
+.subPurpose2 > label {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.purposeName {
+  margin: 25px 0 25px 0;
+}
+.purposeName > input {
+  width: 49%;
+  display: block;
+  margin-top: 10px;
+}
+textarea {
+  margin: 35px 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn > input,
+.btn > button {
+  text-align: right;
+  margin: 10px 0;
+  margin-left: 10px;
+  align-self: flex-end;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+.unapproveData > form > input {
+  width: 330px;
+  margin-bottom: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+}
+.subSection1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.subSection2 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.subSection2 > input:first-child {
+  margin-right: 10px;
+}
+.subSection2 + input {
+  width: 49.5%;
+}
+.credentialField {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.arrow {
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.formType {
+  margin-top: 30px;
+}
+.formType > div {
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.subFormType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.approveData {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 0px;
+}
+.approveData > div {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.approveData > div > h4 {
+  display: inline-block;
+}
+.pur > h4 {
+  display: block !important;
+}
+.pur > div {
+  margin-top: 4px;
+}
+.date {
+  margin: 0;
+  position: absolute;
+  top: 1%;
+  right: 3%;
+}
+.btnDiv {
+  margin-top: 20px;
+  position: absolute;
+  right: 2%;
+  bottom: 1%;
+}
+.btnDiv > button {
+  padding: 8px 15px;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  margin-left: 10px;
+}
+.unapproveData {
+  margin-top: 20px;
+}
+.purposeName {
+  margin: 15px 0 25px 0;
+}
+.purposeInput {
+  width: 327px;
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.uploads {
+  margin-bottom: 25px;
+}
+.uploads {
+  display: flex;
+  flex-wrap: wrap;
+}
+.uploads > div {
+  position: relative;
+  margin-right: 10px;
+}
+.small {
+  cursor: pointer;
+  border-radius: 5px;
+}
+.previewImage {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.previewImage > img {
+  height: 300px;
+  width: 300px;
+}
+.crossIcon {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 8%;
+  right: 5.5%;
+  cursor: pointer;
+  font-weight: 100;
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+    margin: 30px 0;
+    margin-top: 100px;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+  }
+  .image {
+    margin-bottom: 30px;
+    width: 98%;
+    height: 70px;
+  }
+  .subSection2 {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .subSection2 > input:first-child {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .subSection2 + input {
+    width: 100%;
+  }
+  .credentialField {
+    width: 100%;
+  }
+  .rental > input {
+    width: 100%;
+  }
+  .dependents > input {
+    width: 100%;
+  }
+  .subDependents {
+    display: flex;
+    flex-direction: column;
+  }
+  .subDependents > input:first-child {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  textarea {
+    width: 100%;
+  }
+  .purposeName > input {
+    width: 100%;
+  }
+  .purposeInput {
+    width: 287px;
+  }
+  .unapproveData > form > input {
+    width: 100%;
+  }
+  .approveData > div:nth-child(1) {
+    margin-top: 36px;
+  }
+  .date {
+    top: .5%;
+    left: 3%;
+  }
+}
